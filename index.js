@@ -38,20 +38,10 @@ function iLoveTheBeatles(num) {
   
   do {
     newArray.push('I love the Beatles!');
+    num += 1;
   } while 
-  (incrementVariable() < 15);
+  (num < 15);
+  
+  return newArray;
 }
-
-// var i = 0;
-// function incrementVariable() {
-//   i = i + 1;
-//   return i;
-// }
-// function doWhileLoop(num) {
-//   do {
-//     console.log('I run once regardless');
-//   } while
-//   (incrementVariable() <= num);
-// }
-
 
